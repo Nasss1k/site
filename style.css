@@ -1,0 +1,133 @@
+.big   {
+    font-size: 35px;
+}
+/* -------------------стили кнопок------------ */
+a {
+    border-radius: 10px;
+    color: #cea640;
+    background: #fff79a;
+    border-bottom: 5px solid #e1b442;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0,3);
+}
+p{
+    font-family: "Monotype Corsiva" Cursive;
+    font-size: 19px;
+    background-color: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+
+  }
+
+
+
+
+
+ a:hover {
+box-shadow: 0 1px 2px rgba(0,0,0,0,3);
+text-shadow:0 1px 0 rgba(0,0,0,0,3);
+
+ }
+
+ body {
+    background: #fff4e7 url(images/bg.jpg); /* Цвет фона и путь к файлу */
+    color: #fff; /* Цвет текста */
+    border: 2px solid silver;
+   }
+ 
+/* --------------header-------------- */
+ header {
+ rgb(167, 101, 3);
+
+height: 90px;
+background-color: rgb(255, 226, 132);
+display: flex;
+justify-content: space-around;
+align-items: center;
+border: 2px solid silver;
+}
+
+
+
+
+header a {
+text-decoration: none;
+}
+
+
+
+
+a:active {
+    color:rgb(233, 173, 44) ;
+}
+
+
+
+
+h1 {
+    padding-top: 1px;
+    text-align: center;
+    color:#cea640 ;
+    font-size: 40px;
+    text-shadow: -1px -1px rgb(93, 204, 255),
+               0 1px 0 rgb(35, 69, 221);
+  color: rgb(109, 209, 255);
+  transition: all 1s;
+}
+
+
+h1:hover {
+    text-shadow: -1px -1px rgb(18, 255, 97),
+               0 1px 0 #444;
+    color: rgb(84, 252, 78);
+    }
+
+
+
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(/img/bg.jpg) no-repeat;
+    background-color: rgb(255, 251, 210);
+    background-position: left bottom;
+    background-repeat: repeat-x;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+}
+
+
+
+
+main img {
+    width: 370px;
+    border: 3px solid rgb(38, 204, 255);
+}
+main p {
+    width: 730px;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: justify;
+    padding-bottom: 150px;
+}
+
+section {
+    height: 450px;
+}
+
+footer {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: #e9e9e9
+    font-size: 20px;
+    border: 2px solid silver;
+}
